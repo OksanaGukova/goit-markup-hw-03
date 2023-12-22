@@ -25,7 +25,7 @@ a:hover {
   text-decoration: underline;
 }
   img {
-    display: block
+    display: block;
   }
   
 .body{
@@ -40,7 +40,10 @@ a:hover {
 
 header{
     height: 72px;
-    border-bottom: 1px solid #e7e9fc
+    
+}
+.top-line-bg{
+  border-bottom: 1px solid #e7e9fc;
 }
 
 header.top-line-bg .container {
@@ -60,10 +63,8 @@ header.top-line-bg .container {
 
 
  .nav-menu li {
-  padding-top: 24px;
-    padding-bottom: 24px;
     margin-left: 40px; 
-   
+    gap: 40px;
 }
 
 
@@ -87,6 +88,7 @@ header.top-line-bg .container {
 header.top-line-bg .nav-menu li:last-child,
 header.top-line-bg .nav-address li:last-child {
     margin-right: 0;
+
 }
 
 .main-logo{
@@ -98,7 +100,6 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 font-weight: 700;
 margin-right: 76px;
-
 }
 
 .span-logo{
@@ -112,8 +113,9 @@ color: #2E2F42;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
-
+padding: 24px 0;
 }
+
 .main-logo:hover,
 .main-logo:focus{
    color: #404bbf;
@@ -133,7 +135,7 @@ color: #434455;
 
 .contact-text{
   color: #434455;
-
+  
 }
 .contact-text:hover,
 .contact-text:focus{
@@ -152,7 +154,7 @@ color:  #FFF;
 font-size: 56px;
 line-height:1.07;
 letter-spacing: 0.02em; 
-max-width:496px;
+max-width: 496px;
 text-align: center;
 margin: 0 auto 64px;;
 }
@@ -166,12 +168,12 @@ font-weight: 500;
 font-family: "Raleway", sans-serif;
 letter-spacing: 0.04em;
 font-family: "Roboto", sans-serif;
-padding: 16px 32px;
+height: 56px;
 border: none;
-display: inline-block;
+display:in block;
 min-width: 169px;
 border-radius: 4px; 
-text-align: center;
+margin: 0 auto;
 }
 
 .main-button:hover,
@@ -269,7 +271,8 @@ padding: 0;
 }
 
 .portfolio{
-  padding:  0 120px 0
+  padding-top: 120px; 
+  padding-bottom: 120px;
 }
 
 .portfolio-list{
@@ -281,7 +284,6 @@ flex-shrink: 0;
 justify-content: space-between;
 flex-wrap: wrap;
 flex-direction: row;
-
  gap: 24px;
  row-gap: 48px;
 }
@@ -297,7 +299,7 @@ flex-direction: row;
   text-transform: capitalize;
   color:  #2e2f42;
   padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
  
 
@@ -307,6 +309,7 @@ flex-direction: row;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color:  #2e2f42;
+  margin-bottom: 8px;
 }
 
   .apps-description {
@@ -347,6 +350,7 @@ height: 24px;
 flex-shrink: 0;
 display: inline-block;
 margin-bottom: 16px;
+
 }
 
 
@@ -363,9 +367,14 @@ margin-bottom: 16px;
 }
 
 
-
 .container{
   width: 100%;
   max-width: 1158px;
   margin: 0 auto;
+  padding: 0 15px;
+}
+
+footer .main-logo{
+  display: inline-block;
+margin-bottom: 16px;
 }
