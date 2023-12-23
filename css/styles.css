@@ -16,6 +16,8 @@ ul, li {
   margin: 0; 
 }
 
+h1, h2, h3, h4, h5, h6, p { margin: 0;}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -70,9 +72,7 @@ header.top-line-bg .container {
 
 
 .nav-address ul {
-   
     display: flex;
-    
 }
 
 .nav-address-list {
@@ -139,7 +139,6 @@ color: #434455;
 
 .dark-bg {
 background:  #2E2F42;
-height: 600px;
 text-align: center;
 padding: 188px 0; 
 }
@@ -212,7 +211,6 @@ justify-content: space-between;
 
 .light-bg {
   background-color: #f4f4fd;
-max-height: 732px;
 padding: 120px 0;
 }
 
@@ -293,7 +291,6 @@ flex-direction: row;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color:  #2e2f42;
-  padding-top: 120px;
   margin-bottom: 72px;
 }
  
@@ -311,7 +308,6 @@ flex-direction: row;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
   }
 
 .apps-text{
@@ -323,7 +319,6 @@ flex-direction: row;
 
 .footer {
   background: #2e2f42;
-  height: 312px;
   padding: 100px 0;
 }
 
@@ -332,8 +327,6 @@ flex-direction: row;
 font-style: normal;
 line-height: 1.5;
 letter-spacing: 0.02em;
-padding-bottom: 100px;
- margin-top:  17.5px;
 width: 264px;
 }
 
@@ -344,8 +337,6 @@ width: 264px;
 height: 24px;
 flex-shrink: 0;
 display: inline-block;
-margin-bottom: 16px;
-
 }
 
 
